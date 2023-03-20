@@ -31,11 +31,11 @@ main {
     display: flex;
     height: calc(100vh - 100px);
     width: 100%;
-    background-image: url(./images/sun.JPG);
+    background-image: url(../images/sun.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: purple;
+    background-color: cadetblue;
     align-items: center;
     justify-content: space-around;
 }
@@ -52,7 +52,7 @@ main h1 {
     color: #060404;
     margin: 25px;
 }
-.cta {
+.button {
     padding: 15px 30px;
     background: pink;
     color: #0d0d0d;
@@ -60,4 +60,12 @@ main h1 {
     border: none;
     font-weight: 700;
     border-radius: 50px;
+    text-decoration: none;
+}
+footer {
+    display: flex;
+    height: 100px;
+    background: white;
+    justify-content: space-around;
+    align-items: center;
 }

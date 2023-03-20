@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.button {
+  background-color: pink;
+  color: #0d0d0d;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+header {
+  display: flex;
+}
+.container {
+  width: 32%;
+  border-radius: 5px;
+  background-color: cadetblue;
+  padding: 10px;
+}
